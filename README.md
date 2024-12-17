@@ -1,4 +1,4 @@
-# pwb-ppp
+# pwbppp
 Pip installable package to perform initial processing of raw Penguin WeighBridge data.
 This package can perform these steps:
 1. Extract human readble ASCII messages from raw Penguin Weighbridge logger dat files.
@@ -13,13 +13,13 @@ This package can perform these steps:
   
 To simply install for out-of-the-box use in a base or virtual Python environment:
 ```
-pip install pwb-ppp@git+https://github.com/matscorse/pwb-ppp.git
+pip install pwbppp@git+https://github.com/matscorse/pwbppp.git
 ```
 Or...  
 For an editable install in a base or virtual python environment:  
 ```
-git clone https://github.com/matscorse/pwb-ppp.git pwb-ppp
-cd ./pwb-ppp
+git clone https://github.com/matscorse/pwb-ppp.git pwbppp
+cd ./pwbppp
 pip install -e .
 ```  
 
@@ -28,7 +28,7 @@ pip install -e .
 ### Usage
 Provide 1 or more paths to a data file or data directory.  
   
-`pwb-ppp --help`  
+`pwbppp --help`  
 ```bash
-usage: pwb-ppp
+usage: pwbppp
 ```
